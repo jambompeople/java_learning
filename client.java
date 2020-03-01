@@ -11,5 +11,12 @@ public class client{
     String input = ip.nextLine();
     pr.println(input);
     pr.flush();
+
+
+    InputStreamReader in = new InputStreamReader(s.getInputStream());
+    BufferedReader bf = new BufferedReader(in);
+
+    String str = bf.readLine();
+    System.out.println("client: "+str);
   }
 }

@@ -1,3 +1,4 @@
+import java.util.*;
 import java.net.*;
 import java.io.*;
 public class sever{
@@ -12,5 +13,12 @@ public class sever{
 
     String str = bf.readLine();
     System.out.println("client: "+str);
+
+    PrintWriter pr = new PrintWriter(s.getOutputStream());
+    Scanner ip = new Scanner(System.in);
+    System.out.println("please put what you want to text here");
+    String input = ip.nextLine();
+    pr.println(input);
+    pr.flush();
   }
 }
