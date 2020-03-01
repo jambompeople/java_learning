@@ -7,12 +7,12 @@ public class sever{
     Socket s = ss.accept();
 
     System.out.println("client conneted");
-    
+
     InputStreamReader in = new InputStreamReader(s.getInputStream());
     BufferedReader bf = new BufferedReader(in);
 
     String str = bf.readLine();
-    System.out.println("client: "+str);
+    System.out.println("server: "+str);
 
     PrintWriter pr = new PrintWriter(s.getOutputStream());
     Scanner ip = new Scanner(System.in);
