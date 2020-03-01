@@ -7,7 +7,7 @@ public class sever{
     Socket s = ss.accept();
 
     System.out.println("client conneted");
-
+    
     InputStreamReader in = new InputStreamReader(s.getInputStream());
     BufferedReader bf = new BufferedReader(in);
 
