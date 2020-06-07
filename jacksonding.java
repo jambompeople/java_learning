@@ -24,7 +24,9 @@ public class jacksonding{
   }
 }
   static void triangles(){
-    
+    Scanner base = new Scanner(System.in);
+    System.out.println("please put your base of the triangle here");
+    int mybase = base.nextInt();
   }
   public static void main(String[]args){
     squares();
