@@ -23,6 +23,9 @@ public class jacksonding{
       System.out.println("you can only choose 1 or 2");
   }
 }
+  static void triangles(){
+    
+  }
   public static void main(String[]args){
     squares();
    }
