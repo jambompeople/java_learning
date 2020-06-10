@@ -11,10 +11,10 @@ class car{
   String brand;
   int price;
   public car(){
-    weight = 33;
-    hight = 22;
-    brand = "volvo";
-    price = 12223;
+    weight = 12;
+    hight = 3;
+    brand = "Volvo";
+    price = 23;
   }
   public void show(){
     System.out.println(weight+" "+hight+" "+brand+" ");
