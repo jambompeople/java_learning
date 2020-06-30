@@ -17,12 +17,5 @@ public class task{
       for(int i=0;i<arr.length;i++){
         System.out.print(arr[i]);
       }
-      for(int b=0;b<arr.length;b++){
-        for(int c=0;c<arr.length;c++){
-          if(arr[b]<arr[c]){
-
-          }
-        }
-      }
   }
 }
