@@ -8,7 +8,9 @@ public class unitdigit {
         Scanner secondnum = new Scanner(System.in);
         int secondnumber = firstnum.nextInt();
         int sum = firstnumber+secondnumber;
-        while(true){
+        int what = sum%10;
+        System.out.println(what);
+/*        while(true){
           int food = sum-100;
           if(food<0){
             continue;
@@ -28,5 +30,6 @@ public class unitdigit {
             break;
           }
         }
+        */
     }
 }
