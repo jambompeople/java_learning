@@ -11,13 +11,20 @@ public class unitdigit {
         while(true){
           int food = sum-100;
           if(food<0){
-            break;
+            continue;
           }else if(food>0&&food<10){
             System.out.println(food);
             break;
-          }else if(food>10){
-            int work = 
-            System.out.println(food-10);
+          }else if(food>10&&food<100){
+            while(true){
+              if(work<10&&work>0){
+                System.out.println(work);
+                break;
+              }else if(work>10){
+                continue;
+              }
+              int work = food-10;
+            }
             break;
           }
         }
