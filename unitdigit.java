@@ -8,8 +8,18 @@ public class unitdigit {
         Scanner secondnum = new Scanner(System.in);
         int secondnumber = firstnum.nextInt();
         int sum = firstnumber+secondnumber;
-        String strsum = Integer.toString(sum);
-        char[] strsumls = strsum.toCharArray();
-        System.out.println("your unitdigit is "+strsumls[-1]);
+        while(true){
+          int food = sum-100;
+          if(food<0){
+            break;
+          }else if(food>0&&food<10){
+            System.out.println(food);
+            break;
+          }else if(food>10){
+            int work = 
+            System.out.println(food-10);
+            break;
+          }
+        }
     }
 }
