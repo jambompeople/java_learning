@@ -2,18 +2,22 @@ import java.util.Scanner;
 
 public class forloop{
   public static void main(String[]args){
-    Scanner sc = new Scanner(System.in);
-    System.out.println("please put a number here");
-    int num = sc.nextInt();
-    int[] what = new int[num];
-    for(int i = 0;i<num;i++){
-      Scanner scan = new Scanner(System.in);
-      System.out.println("please put a number here");
-      int number = scan.nextInt();
-      what[i] = number;
+    int[] arr = new int[4];
+    arr[0] = 1;
+    arr[1] = 4;
+    arr[2] = 2;
+    arr[3] = 10;
+    for(int a = 2;a<arr.length;a++){
+      int current = arr[a];
+      int formerindex = a-1;
+      while(formerindex>0&&arr[formerindex]>current){
+        arr[formerindex] = arr[formerindex+1];
+        formerindex = formerindex-1;
+        arr[formerindex+1] = current;
+      }
     }
-    for(int x = 0;x<what.length;x++){
-      
+    for(int i = 0;i<arr.length;i++){
+      System.out.println(arr[i]);
     }
   }
 }
