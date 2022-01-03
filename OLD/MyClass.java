@@ -1,3 +1,5 @@
+package OLD;
+
 public class MyClass{
   public static void main(String[]args){
     student JacksonDing = new student();

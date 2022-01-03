@@ -1,3 +1,5 @@
+package OLD;
+
 import java.util.*;
 public class method{
     static void randomGuess() {

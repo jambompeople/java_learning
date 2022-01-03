@@ -1,3 +1,5 @@
+package OLD;
+
 import java.util.*;
 public class unitdigit {
     public static void main(String[]args){

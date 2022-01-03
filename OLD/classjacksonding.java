@@ -1,4 +1,4 @@
-
+package OLD;
 public class classjacksonding{
   public static void main(String[]args){
     triangle jackson = new triangle(1,2,3);

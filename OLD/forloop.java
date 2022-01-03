@@ -1,3 +1,5 @@
+package OLD;
+
 import java.util.Scanner;
 
 public class forloop{
