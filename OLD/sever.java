@@ -22,5 +22,6 @@ public class sever{
     String input = ip.nextLine();
     pr.println(input);
     pr.flush();
+    ss.close();
   }
 }
