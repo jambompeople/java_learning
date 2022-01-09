@@ -1,7 +1,7 @@
 package OLD;
 
 import java.util.*;
-public class method{
+public class idk{
     static void randomGuess() {
         System.out.println("this is a guess number game you have to guess the random last two digit decimal that your friend give you, you have unlimited trys");
         System.out.println("put input number here");
